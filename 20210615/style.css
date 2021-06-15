@@ -1,0 +1,143 @@
+header{
+    display: flex;
+}
+header img{
+    height: 50px;
+    margin: 5px;
+}
+
+header nav{
+    background-color:steelblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 300px;
+}
+
+.toast{
+    display: flex;
+    
+}
+
+.toast li{
+    position: relative;
+    padding: 5px 10px;
+}
+
+
+.toast li + li::before{
+    content: "/";
+    position:absolute;
+    left: 0;
+}
+
+.product{
+    width: 960px;
+    background-color: tomato;
+    margin: auto;
+}
+.wrap{
+    display: flex;
+}
+
+.wrap .item{
+    margin: 10px;
+    width: 300px;
+    border: 5px blanchedalmond solid;
+    text-align: center;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    line-height: 1.3em;
+    font-size: 36px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.intu{
+    text-align: center;
+    padding: 5px;
+}
+
+.des{
+    margin: 10px;
+    background-color: cornsilk;
+}
+
+.des img{
+    width: 100%;
+    height: 300px;
+}
+.des .content{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 30px;
+    
+}
+
+.des .section{
+    width: auto;
+    display: flex;
+    margin: 0px 50px;
+    text-align: center;
+}
+
+.other{
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.other .wrap1{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+}
+.other .item2{
+    width: 100%;
+    border: darkorange 5px solid;
+    margin: 10px;
+    padding: 5px;
+    background-color: darkseagreen;
+}
+.other img{
+    width: 100%;
+    
+}
+
+.other .intro{
+    padding: 10px 200px;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
